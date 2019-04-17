@@ -24,5 +24,5 @@ void foo(char* x, unsigned len);
 ```
 , its corresponding annotation is,
 ```rust
-fn Check(Private<Vec<char>>, Public<u32>) -> void {x.len()>=len}
+fn Check(x: Private<Vec<char>>, len: Public<u32>) -> void {x.len()>=len}
 ```
