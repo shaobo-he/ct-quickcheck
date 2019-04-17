@@ -1,5 +1,5 @@
 # ct-quickcheck
-QuickCheck for Contant Time
+QuickCheck for Contant-Time Implementations
 
 ## Overview
 This project is intended to be a practice of Rust programming language and an experiment that addresses drawbacks of ct-fuzz (at the expense of losing some advantages).
