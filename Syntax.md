@@ -4,7 +4,7 @@
 ct-quickcheck requires users to explicit annotate whether a variable is private or public.
 The type annation syntax is as follows,
 ```
-(Public|Private)<orig-type(,lower-bound,higher-bound)?>
+(Public|Private)<orig-type(,lower-bound,higher-bound(,length-bound))?>
 ```
 For example, the follow annotation represents a type that is private and ranges from `'1'` to `'9'`.
 ```rust
